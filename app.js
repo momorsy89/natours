@@ -30,7 +30,7 @@ app.use('/api',limiter);
 //apply helmet
 app.use(helmet());
 
-//apply xss
+//apply xss-clean
 app.use(xss());
 
 // we will use middleware to access request body
